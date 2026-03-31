@@ -53,3 +53,9 @@ The model is trained on the IMDb dataset and uses TF-IDF for feature extraction 
 
 ## 🚀 How to Run
 1. Install requirements:
+2. Run notebook in Jupyter or Colab
+
+---
+
+## 👨‍💻 Author
+Ahmed Essam
