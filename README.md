@@ -1,21 +1,55 @@
-# Sentiment Analysis NLP Project
+# 🎯 Sentiment Analysis using NLP (IMDb Dataset)
 
-## Overview
-Machine Learning model to classify movie reviews into Positive or Negative.
+## 📌 Overview
+This project is a Natural Language Processing (NLP) model that classifies movie reviews into Positive or Negative sentiment.
 
-## Dataset
-IMDb Movie Reviews (50,000 reviews)
+The model is trained on the IMDb dataset and uses TF-IDF for feature extraction and Naive Bayes for classification.
 
-## Model
-- TF-IDF Vectorizer
+---
+
+## ⚙️ Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- NLP (TF-IDF)
 - Naive Bayes Classifier
+- Matplotlib, Seaborn
 
-## Accuracy
-~86%
+---
 
-## Example Predictions
-- Positive review → 1  
-- Negative review → 0  
+## 📊 Dataset
+- IMDb Movie Reviews Dataset
+- 50,000 reviews
+- Balanced dataset (Positive / Negative)
 
-## Tools
-Python, Scikit-learn, NLP
+---
+
+## 🧠 Workflow
+1. Data Loading
+2. Text Cleaning
+3. TF-IDF Vectorization
+4. Train/Test Split
+5. Model Training
+6. Evaluation
+
+---
+
+## 📈 Results
+- Accuracy: ~86%
+- Good generalization on unseen data
+
+---
+
+## 💡 Example Predictions
+- "I love this movie" → Positive 😊  
+- "Worst movie ever" → Negative 😡  
+
+---
+
+## 📷 Visualization
+(Add confusion matrix image here)
+
+---
+
+## 🚀 How to Run
+1. Install requirements:
